@@ -54,6 +54,7 @@ func SignUp(c *gin.Context){
 }
 
 
+
 func Login(c *gin.Context) {
 	// get email and pass
 	var body struct {
